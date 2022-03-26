@@ -1,2 +1,0 @@
-# mcafee
-mcafee yml file

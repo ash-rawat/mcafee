@@ -1,0 +1,15 @@
+---
+
+- hosts: localhost
+  connection: local
+  become: true
+
+  tasks:
+   - name: copy mcafee file
+     copy:
+      src: files/Mac/*
+      dest: /tmp
+      owner: root
+      group: root
+
+      
