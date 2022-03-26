@@ -7,7 +7,7 @@
   tasks:
    - name: copy mcafee file
      copy:
-      src: files/Mac/*
+      src: package/Mac/*
       dest: /tmp
       owner: root
       group: root
